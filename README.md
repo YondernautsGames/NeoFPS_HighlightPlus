@@ -1,5 +1,5 @@
 # NeoFPS - Highlight Plus
-NeoFPS and Highlight Plus integration and demo
+NeoFPS and Highlight Plus integration and demo. See a [video of it in action](https://streamable.com/bqsbq)
 
 ## Requirements
 This repository was created using Unity 2017.4
