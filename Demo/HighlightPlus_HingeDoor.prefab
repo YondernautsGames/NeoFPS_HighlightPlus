@@ -94,7 +94,6 @@ GameObject:
   - component: {fileID: 33657868254711416}
   - component: {fileID: 23142655046311124}
   - component: {fileID: 64249109385489580}
-  - component: {fileID: 114092987584300682}
   m_Layer: 23
   m_Name: DoorHandle
   m_TagString: Untagged
@@ -589,7 +588,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -613,92 +612,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &114092987584300682
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1577819870504010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 888380afc233049ce9e618f9f36c8ba8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: 3d070bb85a1b52644bf185d13c38f2c7, type: 2}
-  profileSync: 0
-  previewInEditor: 1
-  effectGroup: 0
-  effectGroupLayer:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  alphaCutOff: 0
-  cullBackFaces: 1
-  ignoreObjectVisibility: 0
-  reflectionProbes: 0
-  ignore: 0
-  _highlighted: 0
-  fadeInDuration: 0
-  fadeOutDuration: 0
-  flipY: 0
-  constantWidth: 1
-  overlay: 0.25
-  overlayColor: {r: 0.8602941, g: 1, b: 0.94219065, a: 1}
-  overlayAnimationSpeed: 0.25
-  overlayMinIntensity: 0.15
-  overlayBlending: 0.75
-  outline: 0.15
-  outlineColor: {r: 0.625, g: 1, b: 0.84482753, a: 1}
-  outlineWidth: 0.5
-  outlineQuality: 2
-  outlineDownsampling: 2
-  outlineVisibility: 0
-  outlineOptimalBlit: 1
-  outlineBlitDebug: 0
-  glow: 0
-  glowWidth: 0.4
-  glowQuality: 0
-  glowDownsampling: 2
-  glowHQColor: {r: 1, g: 1, b: 1, a: 1}
-  glowDithering: 1
-  glowMagicNumber1: 0.75
-  glowMagicNumber2: 0.5
-  glowAnimationSpeed: 0.5
-  glowVisibility: 1
-  glowOptimalBlit: 1
-  glowBlitDebug: 0
-  glowPasses:
-  - offset: 4
-    alpha: 0.1
-    color: {r: 0.64, g: 1, b: 0, a: 1}
-  - offset: 3
-    alpha: 0.2
-    color: {r: 0.64, g: 1, b: 0, a: 1}
-  - offset: 2
-    alpha: 0.3
-    color: {r: 0.64, g: 1, b: 0, a: 1}
-  - offset: 1
-    alpha: 0.4
-    color: {r: 0.64, g: 1, b: 0, a: 1}
-  innerGlow: 0
-  innerGlowWidth: 0.169
-  innerGlowColor: {r: 1, g: 1, b: 1, a: 1}
-  innerGlowVisibility: 0
-  targetFX: 0
-  targetFXTexture: {fileID: 2800000, guid: 1de3c566a6c8c405b9f6f453137273ec, type: 3}
-  targetFXColor: {r: 1, g: 1, b: 1, a: 1}
-  targetFXCenter: {fileID: 0}
-  targetFXRotationSpeed: 50
-  targetFXInitialScale: 4
-  targetFXEndScale: 1.5
-  targetFXTransitionDuration: 0.5
-  targetFXStayDuration: 1.5
-  seeThrough: 2
-  seeThroughIntensity: 0.23
-  seeThroughTintAlpha: 0.5
-  seeThroughTintColor: {r: 1, g: 1, b: 1, a: 1}
-  seeThroughNoise: 0.25
-  rmsCount: 1
+    m_RotationOrder: 0
 --- !u!114 &114135451133120730
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -765,9 +679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba3c73e6f8c04634b856285b6423a7ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HighlightEffects:
-  - {fileID: 114555623008768456}
-  - {fileID: 114092987584300682}
+  m_HighlightEffect: {fileID: 114555623008768456}
 --- !u!114 &114555623008768456
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -852,7 +764,7 @@ MonoBehaviour:
   seeThroughTintAlpha: 0.5
   seeThroughTintColor: {r: 1, g: 1, b: 1, a: 1}
   seeThroughNoise: 0.25
-  rmsCount: 1
+  rmsCount: 2
 --- !u!114 &114769113620408246
 MonoBehaviour:
   m_ObjectHideFlags: 1
