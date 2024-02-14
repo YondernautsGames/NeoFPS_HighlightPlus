@@ -9,6 +9,9 @@ It requires the assets [NeoFPS](https://assetstore.unity.com/packages/templates/
 ## Installation And Use
 Simply import Highlight Plus into a NeoFPS project and grab the **InteractiveObjectHighlightPlus** script from this repository.
 
+> [!WARNING]
+> Do not place the integration folder or the script file inside the NeoFPS asset folder structure. If you do this then the script will be picked up by the NeoFPS assembly definition, which will limit what other scripts within the project it has access to. For more information on assembly definitions, see [the Unity Manual](https://docs.unity3d.com/Manual/ScriptCompilationAssemblyDefinitionFiles.html).
+
 Highlighting an object requires 3 steps. Firstly, you need to add the **Highlight Effect** component to the geometry object that you want to highlight. Next, add the **InteractiveObjectHighlightPlus** component to the object with the **InteractiveObject** component or a component that inherits from it (such as the multi-item pickup). Lastly, drag the **Highlight Effect** component onto the property in the **InteractiveObjectHighlightPlus** and that's it.
 	
 #### Demo Scene
